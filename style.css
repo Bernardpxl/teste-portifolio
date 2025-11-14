@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.rodape {
+  background-color: #8db2c9; /* Azul claro */
+  color: black;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: start;
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+.logo .b {
+  font-size: 60px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contato {
+  flex: 1;
+  min-width: 250px;
+}
+
+.botao {
+  background-color: #b0b0b0; /* Cinza */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #8c8c8c;
+}
+
+.redes {
+  text-align: center;
+  flex: 1;
+  min-width: 200px;
+}
+
+.icones a img {
+  width: 28px;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+
+.copy {
+  margin-top: 30px;
+  font-size: 14px;
+  opacity: 0.8;
+}
